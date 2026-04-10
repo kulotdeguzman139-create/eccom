@@ -1,0 +1,921 @@
+.search,
+.search * {
+  box-sizing: border-box;
+}
+.search {
+  background: #ffffff;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+}
+.title {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.elements-head {
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.section {
+  color: var(--color-palette-neutral-50, #868687);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+  flex: 1;
+}
+.base {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.item-search {
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.item {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: left;
+  font-family: var(--16-regular-body-font-family, "HeyWow-Regular", sans-serif);
+  font-size: var(--16-regular-body-font-size, 16px);
+  line-height: var(--16-regular-body-line-height, 26px);
+  letter-spacing: var(--16-regular-body-letter-spacing, 0.02em);
+  font-weight: var(--16-regular-body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.icon {
+  border-radius: 12px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.medium-default {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.indent-div {
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.wrapper2 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.divider2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.wrapper3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.divider3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.wrapper4 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.divider4 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.wrapper5 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.system-keyboard {
+  background: #ccced3;
+  width: 375px;
+  height: 291px;
+  position: fixed;
+  left: 0px;
+  top: 521px;
+}
+.background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.background2 {
+  background: #d1d5db;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  backdrop-filter: blur(54.37px);
+}
+.home-indicator {
+  width: 100%;
+  height: 11.68%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 88.32%;
+}
+.home-indicator2 {
+  background: #000000;
+  border-radius: 100px;
+  width: 134px;
+  height: 5px;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  bottom: 8px;
+}
+.keys {
+  position: absolute;
+  inset: 0;
+}
+.dictation {
+  width: 15px;
+  height: 25px;
+  position: absolute;
+  left: 330px;
+  top: 241px;
+  overflow: visible;
+}
+.emoji {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 25px;
+  top: 240px;
+  overflow: visible;
+}
+.return {
+  width: 23.47%;
+  height: 14.43%;
+  position: absolute;
+  right: 0.8%;
+  left: 75.73%;
+  bottom: 27.15%;
+  top: 58.42%;
+}
+.rectangle {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.label {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: -0.32px;
+  font-weight: 400;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 23.81%;
+  top: 26.19%;
+  height: 50%;
+}
+.space {
+  width: 48.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 25.87%;
+  left: 25.6%;
+  bottom: 27.15%;
+  top: 58.42%;
+}
+.rectangle2 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: visible;
+}
+._123 {
+  width: 23.2%;
+  height: 14.43%;
+  position: absolute;
+  right: 76%;
+  left: 0.8%;
+  bottom: 27.15%;
+  top: 58.42%;
+}
+.rectangle3 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.delete {
+  width: 42px;
+  height: 42px;
+  position: static;
+}
+.key-light {
+  width: 11.2%;
+  height: 14.43%;
+  position: absolute;
+  right: 0.8%;
+  left: 88%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.rectangle4 {
+  border-radius: 0px;
+  height: auto;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.delete-button {
+  width: 22.66px;
+  height: 16.99px;
+  position: absolute;
+  left: 339.66px;
+  top: 128.66px;
+  overflow: visible;
+}
+.shift {
+  width: 42px;
+  height: 42px;
+  position: static;
+}
+.key-light2 {
+  width: 11.2%;
+  height: 14.43%;
+  position: absolute;
+  right: 88%;
+  left: 0.8%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.rectangle5 {
+  background: #fcfcfe;
+  border-radius: 4.6px;
+  position: absolute;
+  right: 0px;
+  left: 0px;
+  bottom: 0px;
+  top: 0px;
+  box-shadow: 0px 1px 0px 0px rgba(137, 138, 141, 1);
+}
+.symbol {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 51.93%;
+  left: 48.07%;
+  width: 0%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.shift2 {
+  width: 5.03%;
+  height: 5.66%;
+  position: absolute;
+  right: 91.06%;
+  left: 3.91%;
+  bottom: 50.29%;
+  top: 44.05%;
+  overflow: visible;
+}
+.m {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 15.47%;
+  left: 76%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.symbol2 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 18.75%;
+  left: 18.75%;
+  width: 62.5%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.n {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 25.6%;
+  left: 65.87%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.symbol3 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 21.88%;
+  left: 25%;
+  width: 53.13%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.b {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 35.73%;
+  left: 55.73%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.symbol4 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 25%;
+  left: 28.13%;
+  width: 46.88%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.v {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 45.6%;
+  left: 45.87%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.symbol5 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 25%;
+  left: 25%;
+  width: 50%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.c {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 55.73%;
+  left: 35.73%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.x {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 65.6%;
+  left: 25.87%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.z {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 75.73%;
+  left: 15.73%;
+  bottom: 45.7%;
+  top: 39.86%;
+}
+.l {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 5.6%;
+  left: 85.87%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.symbol6 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 28.13%;
+  left: 31.25%;
+  width: 40.63%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.k {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 15.73%;
+  left: 75.73%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.j {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 25.6%;
+  left: 65.87%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.h {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 35.73%;
+  left: 55.73%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.g {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 45.6%;
+  left: 45.87%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.f {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 55.73%;
+  left: 35.73%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.d {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 65.6%;
+  left: 25.87%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.s {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 75.73%;
+  left: 15.73%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.a {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 85.6%;
+  left: 5.87%;
+  bottom: 64.26%;
+  top: 21.31%;
+}
+.p {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 0.8%;
+  left: 90.67%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.o {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 10.67%;
+  left: 80.8%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.symbol7 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 21.88%;
+  left: 21.88%;
+  width: 56.25%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.i {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 20.8%;
+  left: 70.67%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.symbol8 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 37.5%;
+  left: 40.63%;
+  width: 21.88%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.u {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 30.67%;
+  left: 60.8%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.y {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 40.8%;
+  left: 50.67%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.t {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 50.67%;
+  left: 40.8%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.r {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 60.8%;
+  left: 30.67%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.e {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 70.67%;
+  left: 20.8%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.symbol9 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 28.13%;
+  left: 28.13%;
+  width: 43.75%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.w {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 80.8%;
+  left: 10.67%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.symbol10 {
+  color: #000000;
+  text-align: center;
+  font-family: "SfProText-Regular", sans-serif;
+  font-size: 22.5px;
+  letter-spacing: -0.55px;
+  font-weight: 400;
+  position: absolute;
+  right: 15.63%;
+  left: 15.63%;
+  width: 68.75%;
+  top: 50%;
+  translate: 0 -50%;
+}
+.q {
+  width: 8.53%;
+  height: 14.43%;
+  position: absolute;
+  right: 90.67%;
+  left: 0.8%;
+  bottom: 82.82%;
+  top: 2.75%;
+}
+.one-line {
+  background: var(--color-palette-neutral-00, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.status-only {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.system-status-bar {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 44px;
+  position: relative;
+}
+.rectangle-2 {
+  background: var(--color-palette-neutral-00, #ffffff);
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0px;
+}
+.container2 {
+  padding: 0px 12px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper6 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon2 {
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.medium-default2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wrapper7 {
+  align-self: stretch;
+  flex: 1;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.search2 {
+  background: var(--color-palette-neutral-05, #f3f3f3);
+  border-radius: 12px;
+  padding: 13px 16px 13px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.label2 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.search-on-tassel {
+  color: var(--color-palette-neutral-30, #b7b7b8);
+  text-align: left;
+  font-family: var(--rg-bn-16px-font-family, "HeyWow-Regular", sans-serif);
+  font-size: var(--rg-bn-16px-font-size, 16px);
+  line-height: var(--rg-bn-16px-line-height, 22px);
+  font-weight: var(--rg-bn-16px-font-weight, 400);
+  position: relative;
+}
