@@ -1,0 +1,626 @@
+.market-stores-product,
+.market-stores-product * {
+  box-sizing: border-box;
+}
+.market-stores-product {
+  background: #ffffff;
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.product-collection {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 375px;
+  position: relative;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container {
+  padding: 0px 0px 0px 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+  overflow-x: auto;
+}
+.wrapper {
+  padding: 0px 24px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.images {
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.image {
+  background: var(--color-palette-primary-20, #d3cef6);
+  padding: 48px;
+  flex-shrink: 0;
+  width: 327px;
+  height: 396px;
+  position: relative;
+  overflow: hidden;
+}
+.icon-image-default {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(50% - 150px);
+  overflow: visible;
+}
+.placeholder {
+  width: 36.7%;
+  height: 30.3%;
+  position: absolute;
+  right: 63.3%;
+  left: 0%;
+  bottom: 69.7%;
+  top: 0%;
+  object-fit: cover;
+}
+.icon-image-default2 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(50% - 150px);
+  overflow: visible;
+}
+.icon-image-default3 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(50% - 150px);
+  overflow: visible;
+}
+.icon-image-default4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(50% - 150px);
+  overflow: visible;
+}
+.icon-image-default5 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: calc(50% - 115.5px);
+  top: calc(50% - 150px);
+  overflow: visible;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.hint {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.rectangle-13 {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 56px;
+  height: 4px;
+  position: relative;
+}
+.title-base {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper3 {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.top-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.product-collection-title {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: left;
+  font-family: var(
+    --20-regular-subhead-1-font-family,
+    "HeyWow-Regular",
+    sans-serif
+  );
+  font-size: var(--20-regular-subhead-1-font-size, 20px);
+  line-height: var(--20-regular-subhead-1-line-height, 30px);
+  font-weight: var(--20-regular-subhead-1-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.avatar {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.avatar2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper4 {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+}
+.ring {
+  background: var(--color-palette-neutral-00, #ffffff);
+  border-radius: 50%;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-10, #e7e7e8);
+  border-width: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.image2 {
+  background: var(--color-palette-neutral-00, #ffffff);
+  border-radius: 1000px;
+  width: 83.33%;
+  height: 83.33%;
+  position: absolute;
+  right: 8.33%;
+  left: 8.33%;
+  bottom: 8.33%;
+  top: 8.33%;
+  overflow: hidden;
+}
+.placeholder2 {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.bottom-wrapper {
+  padding: 0px 80px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title-price {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.price {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+._000 {
+  color: var(--color-palette-neutral-100, #0e0e10);
+  text-align: left;
+  font-family: var(
+    --20-semibold-headline-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--20-semibold-headline-font-size, 20px);
+  line-height: var(--20-semibold-headline-line-height, 30px);
+  font-weight: var(--20-semibold-headline-font-weight, 600);
+  position: relative;
+}
+.elements-button-row {
+  padding: 8px 24px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 375px;
+  position: relative;
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label {
+  background: var(--color-palette-neutral-05, #f3f3f3);
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-10, #e7e7e8);
+  border-width: 1px;
+  padding: 11px 16px 11px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.color {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wrapper5 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.icon {
+  background: rgba(87, 154, 255, 0.5);
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-05, #f3f3f3);
+  border-width: 1px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.container3 {
+  padding: 0px 0px 0px 4px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.label2 {
+  color: var(--color-palette-neutral-30, #b7b7b8);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.label3 {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-10, #e7e7e8);
+  border-width: 1px;
+  padding: 11px 16px 11px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.container4 {
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.label4 {
+  color: var(--color-palette-neutral-80, #3e3e40);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.one-line {
+  background: var(--color-palette-neutral-00, #ffffff);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.status-only {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.system-status-bar {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 44px;
+  position: relative;
+}
+.rectangle-2 {
+  background: var(--color-palette-neutral-00, #ffffff);
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0px;
+}
+.container5 {
+  padding: 0px 12px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper6 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.icon2 {
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.medium-default {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wrapper7 {
+  align-self: stretch;
+  flex: 1;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon-bookmark-default {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.icon-more-dots-default {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.tool-bar {
+  background: var(--color-palette-neutral-00, #ffffff);
+  padding: 4px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  width: 375px;
+  position: fixed;
+  left: 0px;
+  top: 714px;
+}
+.elements-button-row2 {
+  padding: 4px 24px 4px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label5 {
+  background: var(--color-palette-primary-100, #614fe0);
+  border-radius: 12px;
+  padding: 11px 16px 11px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.label6 {
+  color: var(--color-palette-neutral-00, #ffffff);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.system-light-home-indicator {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 34px;
+  position: relative;
+}
