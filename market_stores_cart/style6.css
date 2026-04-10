@@ -1,0 +1,626 @@
+.market-stores-cart,
+.market-stores-cart * {
+  box-sizing: border-box;
+}
+.market-stores-cart {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  height: 812px;
+  position: relative;
+  overflow: hidden;
+}
+.main {
+  padding: 24px 0px 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 375px;
+  position: absolute;
+  left: 0px;
+  top: 96px;
+}
+.title-base {
+  padding: 0px 24px 0px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  padding: 2px 0px 2px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.main-title {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: center;
+  font-family: var(
+    --32-extrabold-main-title-font-family,
+    "HeyWow-ExtraBold",
+    sans-serif
+  );
+  font-size: var(--32-extrabold-main-title-font-size, 32px);
+  line-height: var(--32-extrabold-main-title-line-height, 44px);
+  font-weight: var(--32-extrabold-main-title-font-weight, 800);
+  position: relative;
+  flex: 1;
+}
+.cart {
+  background: var(--color-palette-neutral-00, #ffffff);
+  border-radius: 16px;
+  padding: 24px 24px 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 327px;
+  position: absolute;
+  left: 24px;
+  top: 200px;
+}
+.wrapper2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.delete-icon {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 0px;
+  position: relative;
+}
+.icon {
+  border-radius: 12px;
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: -14px;
+  top: -14px;
+}
+.medium-default {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper3 {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+.elements {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper4 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.elements-container {
+  background: var(--color-palette-primary-20, #d3cef6);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 104px;
+  height: 126px;
+  position: relative;
+  overflow: hidden;
+}
+.container2 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.wrapper5 {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.icon-image-default {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 50%;
+  translate: -50% -50%;
+  top: 50%;
+  overflow: visible;
+}
+.placeholder {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+  object-fit: cover;
+}
+.item {
+  padding: 16px 0px 16px 0px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.item2 {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: left;
+  font-family: var(
+    --18-regular-subhead-2-font-family,
+    "HeyWow-Regular",
+    sans-serif
+  );
+  font-size: var(--18-regular-subhead-2-font-size, 18px);
+  line-height: var(--18-regular-subhead-2-line-height, 28px);
+  font-weight: var(--18-regular-subhead-2-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.details {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.xs-24-blue-x-1 {
+  color: var(--color-palette-neutral-70, #575758);
+  text-align: left;
+  font-family: var(--16-regular-body-font-family, "HeyWow-Regular", sans-serif);
+  font-size: var(--16-regular-body-font-size, 16px);
+  line-height: var(--16-regular-body-line-height, 26px);
+  letter-spacing: var(--16-regular-body-letter-spacing, 0.02em);
+  font-weight: var(--16-regular-body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+._000 {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: right;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper6 {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label {
+  border-radius: 12px;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-10, #e7e7e8);
+  border-width: 1px;
+  padding: 11px 16px 11px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.container3 {
+  padding: 0px 16px 0px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+  overflow: hidden;
+}
+.label2 {
+  color: var(--color-palette-neutral-80, #3e3e40);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.one-line {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+}
+.status-only {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.system-status-bar {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 44px;
+  position: relative;
+}
+.rectangle-2 {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  width: 100%;
+  height: 44px;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  top: 0px;
+}
+.container4 {
+  padding: 0px 12px 4px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper7 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.icon2 {
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.medium-default2 {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wrapper8 {
+  align-self: stretch;
+  flex: 1;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.huge {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper9 {
+  flex-shrink: 0;
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: visible;
+}
+.icon3 {
+  border-radius: 12px;
+  opacity: 0;
+  padding: 12px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+}
+.placeholder2 {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+}
+.wrapper10 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+}
+.icon4 {
+  border-radius: 100px;
+  border-style: solid;
+  border-color: var(--color-palette-neutral-80, #3e3e40);
+  border-width: 2px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+  bottom: 0%;
+  top: 0%;
+}
+.checkout-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 375px;
+  position: fixed;
+  left: 0px;
+  top: 664px;
+}
+.divider {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  height: auto;
+  position: relative;
+  overflow: visible;
+}
+.checkout-bar-base {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  padding: 12px 24px 12px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.wrapper11 {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label3 {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1;
+  position: relative;
+}
+.subtotal-vat-included {
+  color: var(--color-palette-neutral-90, #272728);
+  text-align: left;
+  font-family: var(--16-regular-body-font-family, "HeyWow-Regular", sans-serif);
+  font-size: var(--16-regular-body-font-size, 16px);
+  line-height: var(--16-regular-body-line-height, 26px);
+  letter-spacing: var(--16-regular-body-letter-spacing, 0.02em);
+  font-weight: var(--16-regular-body-font-weight, 400);
+  position: relative;
+  flex: 1;
+}
+.total {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  position: relative;
+}
+.tool-bar {
+  background: var(--color-palette-neutral-10, #e7e7e8);
+  padding: 4px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.elements-button-row {
+  padding: 4px 24px 4px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.container5 {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.label4 {
+  background: var(--color-palette-primary-100, #614fe0);
+  border-radius: 12px;
+  padding: 11px 16px 11px 16px;
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  position: relative;
+}
+.label5 {
+  color: var(--color-palette-neutral-10, #e7e7e8);
+  text-align: left;
+  font-family: var(
+    --16-semibold-body-button-font-family,
+    "HeyWow-SemiBold",
+    sans-serif
+  );
+  font-size: var(--16-semibold-body-button-font-size, 16px);
+  line-height: var(--16-semibold-body-button-line-height, 26px);
+  letter-spacing: var(--16-semibold-body-button-letter-spacing, 0.02em);
+  font-weight: var(--16-semibold-body-button-font-weight, 600);
+  position: relative;
+}
+.system-light-home-indicator {
+  align-self: stretch;
+  flex-shrink: 0;
+  height: 34px;
+  position: relative;
+}
